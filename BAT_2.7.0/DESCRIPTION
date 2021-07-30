@@ -1,0 +1,31 @@
+Package: BAT
+Title: Biodiversity Assessment Tools
+Version: 2.7.0
+Date: 2021-07-29
+Authors@R: c(
+    person("Pedro", "Cardoso", email = "pedro.cardoso@helsinki.fi", role = c("aut", "cre")),
+    person("Stefano", "Mammola", role = c("aut")),
+    person("Francois", "Rigal", role = c("aut")),
+    person("Jose", "Carvalho", role = c("aut")))
+Description: Includes algorithms to assess alpha and beta diversity
+    in all their dimensions (taxonomic, phylogenetic and functional).
+    It allows performing a number of analyses based on species
+    identities/abundances, phylogenetic/functional distances, trees,
+    convex-hulls or kernel density n-dimensional hypervolumes
+    depicting species relationships.
+    Cardoso et al. (2015) <doi:10.1111/2041-210X.12310>.
+Depends: R (>= 3.0.0)
+Imports: ape, geometry, graphics, hypervolume, MASS, nls2, raster,
+        stats, utils, vegan
+Encoding: UTF-8
+License: GPL-3
+LazyData: true
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 7.1.1
+NeedsCompilation: no
+Packaged: 2021-07-30 06:13:01 UTC; ungol
+Author: Pedro Cardoso [aut, cre],
+  Stefano Mammola [aut],
+  Francois Rigal [aut],
+  Jose Carvalho [aut]
+Maintainer: Pedro Cardoso <pedro.cardoso@helsinki.fi>
